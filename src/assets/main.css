@@ -1,0 +1,22 @@
+@import './base.css';
+
+/* font heading  */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+US+Modern:wght@100..400&display=swap');
+
+/* font paragraph */
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body, p, small {
+  font-family: "Handlee", cursive;
+  color: #e0ccc8;
+  font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playwrite US Modern", cursive;
+  color: #cccbcb;
+}
